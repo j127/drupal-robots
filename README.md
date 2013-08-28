@@ -6,7 +6,7 @@ I've written about that since 2008 but it was never fixed.
 
 I just made a few quick suggestions here on Github on how Drupal.org's own _custom_ robots.txt file could be simplified.
 
-# Details
+## Details
 
 Trailing wildcards (*) aren't needed.
 
