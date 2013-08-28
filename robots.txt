@@ -42,59 +42,52 @@ Disallow: /xmlrpc.php
 Disallow: /admin/
 Disallow: /comment/reply/
 Disallow: /filter/tips/
-Disallow: /logout/
+Disallow: /logout
 Disallow: /node/add/
 Disallow: /search/
-Disallow: /user/register/
-Disallow: /user/password/
-Disallow: /user/login/
+Disallow: /user/register
+Disallow: /user/password
+Disallow: /user/login
 # Paths (no clean URLs)
 Disallow: /?q=admin/
 Disallow: /?q=comment/reply/
 Disallow: /?q=filter/tips/
-Disallow: /?q=logout/
+Disallow: /?q=logout
 Disallow: /?q=node/add/
 Disallow: /?q=search/
-Disallow: /?q=user/password/
-Disallow: /?q=user/register/
-Disallow: /?q=user/login/
+Disallow: /?q=user/password
+Disallow: /?q=user/register
+Disallow: /?q=user/login
 Disallow: /?q=search/
 
 # Extras on drupal.org
 # no access for table sorting paths or any paths that have parameters.
-Disallow: /*?sort*
-Disallow: /*&sort*
+Disallow: /*sort=
 
-Disallow: /*?solrsort*
-Disallow: /*&solrsort*
+Disallow: /*solrsort=
 
 # no access to profile listings, they are costly to generate and don't provide useful information.
-Disallow: /profile
-Disallow: /profile/*
-Disallow: /?q=profile
-Disallow: /?q=profile/*
+Disallow: /profile/
+Disallow: /?q=profile/
 
 # Disallow bogus aggregator pages
-Disallow: /aggregator/*
+Disallow: /aggregator/
 
 # Disallow project search
 Disallow: /project/issues/search
-Disallow: /project/issues/search/*
 Disallow: /project/issues/*/search
 
 # Disallow book export
-Disallow: /book/export/*
+Disallow: /book/export/
 
 # Disallow pift tests
-Disallow: /pift/retest/*
+Disallow: /pift/retest/
 
 # Disallow project subscription
-Disallow: /project/issues/subscribe-mail/*
+Disallow: /project/issues/subscribe-mail/
 
 # Disallow URLs with destination parameter
-Disallow: /user/login?destination=*
-Disallow: /user/register?destination=*
-Disallow: /user?destination=*
+Disallow: /*destination=
 
 # Googlebot picked up strange homepage URLs somewhere
-Disallow: /home/*
+Disallow: /home/
