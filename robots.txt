@@ -67,8 +67,8 @@ Disallow: /*sort=
 Disallow: /*solrsort=
 
 # no access to profile listings, they are costly to generate and don't provide useful information.
-Disallow: /profile/
-Disallow: /?q=profile/
+Disallow: /profile
+Disallow: /?q=profile
 
 # Disallow bogus aggregator pages
 Disallow: /aggregator/
