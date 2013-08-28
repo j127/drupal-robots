@@ -11,12 +11,15 @@ I just made a few quick suggestions here on Github on how Drupal.org's own robot
 Trailing wildcards (*) aren't needed.
 
 This rule:
+
     Disallow: /profile/*
 
 is identical to this rule:
+
     Disallow: /profile/
 
 which is already covered by this rule:
+
     Disallow: /profile
 
 and so on...
