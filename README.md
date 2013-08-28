@@ -4,7 +4,7 @@ The default robots.txt file in Drupal still has SEO problems even in Drupal 7.
 
 I've written about that since 2008 but it was never fixed.
 
-I just made a few quick suggestions here on Github on how Drupal.org's own robots.txt file could be simplified.
+I just made a few quick suggestions here on Github on how Drupal.org's own _custom_ robots.txt file could be simplified.
 
 # Details
 
